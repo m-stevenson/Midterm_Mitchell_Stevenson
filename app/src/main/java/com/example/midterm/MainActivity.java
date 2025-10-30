@@ -19,6 +19,17 @@ import java.util.Set;
 public class MainActivity extends AppCompatActivity {
     public static int ROOT_ID;
     public static String sharedText = "";
+    private LinearLayout groupTable;
+    private LinearLayout groupHistory;
+    private EditText etNum;
+    private Button btnGenerate;
+    private Button btnHistory;
+    private Button btnBack;
+    private ListView lvTable;
+    private ListView lvHistory;
+
+    private ArrayAdapter<String> tableAdapter;
+    private ArrayAdapter<Integer> historyAdapter;
 
     public static final ArrayList<String> currTable = new ArrayList<>();
     public static final Set<Integer> history = new LinkedHashSet<>();

@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Midterm</string>
+    <string name="history">History</string>
+    <string name="enter_a_number">Enter a number</string>
+    <string name="generate_table">Generate Table</string>
+    <string name="back">Back</string>
+    <string name="generate_times_table">Generate Times Table</string>
+    <string name="view_history">View History</string>
 </resources>
