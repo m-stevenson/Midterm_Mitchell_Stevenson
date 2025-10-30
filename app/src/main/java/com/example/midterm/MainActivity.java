@@ -115,7 +115,9 @@ public class MainActivity extends AppCompatActivity {
             });
 
             btnBack.setOnClickListener(v->
-                    requireActivity().getSupportFragmentManager().popBackStack()
+                    requireActivity().getSupportFragmentManager().beginTransaction()
+                            .add(new FirstFragment(), "Times tables")
+                            .addToBackStack("Times tables").commit()
             );
         }
     }
