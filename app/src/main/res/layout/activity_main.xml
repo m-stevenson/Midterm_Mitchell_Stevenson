@@ -21,7 +21,7 @@
             android:layout_height="wrap_content">
 
             <EditText
-                android:id="@+id/etNumber"
+                android:id="@+id/etNum"
                 android:hint="@string/enter_a_number"
                 android:inputType="numberSigned"
                 android:layout_width="match_parent"
